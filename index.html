@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wonderland</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+        <link rel="icon" type="image/jpg" href="img/wonderland.png">
+        <link rel="stylesheet" type="text/css" href="lib/animate/animate.min.css">
+        <link rel="stylesheet" type="text/js" href="lib/wow/wow.min.js">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+        <script src="js/home.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm row fixed-top">
+            <a class="navbar-brand col-md-6" href="home.html">
+                <div class="logoCover">
+                    <img src="img/wonderland.png" class="logo">
+                </div>
+            </a>
+            
+            <div class="col-md-5">
+                <b class="dropdown-toggle" href="#" onclick="dropdown()">Categories</b><br>
+            </div>
+            
+            <div class="col-md-1">
+                <button id="menuButton" onclick="openNav()">
+                <span class="menuBar"></span>
+                <span class="menuBar"></span>
+                <span class="menuBar"></span>
+            </button>
+            </div>
+        </nav>
+        <div class="dropdownBox" id="box">
+            <a class="cat" href="">PC Games</a><hr>
+            <a class="cat" href="">PC Softwares</a><hr>
+            <a class="cat" href="">Android Games</a>
+        </div>
+<!--sideNav-->
+        <section id="sideNav">
+                <a href="javascript:void(0)" Id="closebtn"  onclick="closeNav()">&times;</a>
+			<div id="sideNavContent">
+            <a href="home.html">Home</a><p></p>
+			<a href="" >About</a><p></p>
+            <a href="" >Contact Us</a>
+            </div>
+        </section>
+                <p></p>
+<!--body of the website-->
+        <!-- Slideshow-->
+        <div>
+        <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <!-- <div class="mySlides fade"> 
+    <div class="numbertext">1 / 3</div>
+    <img src="img/Wallpaper%201.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/Wallpaper%207.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/Wallpaper%204.jpg" style="width:100%">
+  </div>
+<br>
+
+    </div>
+         </div>
+    <script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+    </script>
+-->
+        
+        
+        
+        
+        <section class="container">
+            <div class="jumbotron">
+                <h1 class="largeHeader">GAMES OF THE WEEK</h1>
+                <div class="pes">
+                    <h2>Pro Evolution Soccer 17</h2><br>
+                    <div class="row">
+                <img src="img/icon.ico" width="auto;" height="auto;" class="col-md-3">
+                    <b class="col-md-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.<a href="pes.html">Read More</a></b>
+                        </div>
+                </div>
+                <div class="gta">
+                    <h2>
+                    GTA San Andreas</h2>
+               <div class="row">
+                <img src="img/images.jpeg" width="auto;" height="auto;" class="col-md-4">
+                    <b class="col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.<a href="">Read More</a></b>
+                        </div>
+                </div>
+                
+                <hr>
+                
+                <h1 class="largeHeader">SOFTWARES OF THE WEEK</h1>
+                <div class="coreldraw">
+                    <h2>
+                    Corel Draw x7</h2>
+                 <div class="row">
+                <img src="img/images%20(1).jpeg" width="auto;" height="auto;" class="col-md-3">
+                    <b class="col-md-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.<a href="">Read More</a></b>
+                        </div>
+                </div>
+                
+                <div class="photoshop">
+                    <h2>
+                    Photoshop CS6</h2>
+                 <div class="row">
+                <img src="img/images%20(2).jpeg" width="auto;" height="auto;" class="col-md-3">
+                    <b class="col-md-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.<a href="">Read More</a></b>
+                        </div>
+                </div>
+            </div>
+        </section>
+<!--footer of the webpage-->
+        <footer>
+            <section style="position: relative; top: 20px; color: white; text-align: center;">
+                <hr style="background-color: white;" class="container">
+                <p>Copyright &copy; 2019 All right reserved &#124; Made with love by WonderKodes</p>
+            </section>
+        </footer>
+    </body>
+</html>
+    
